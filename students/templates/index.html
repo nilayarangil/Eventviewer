@@ -93,7 +93,7 @@
         {% for x in mycourses %}
         <tbody>
             <tr>
-                <td><a href="update/{{ x.id }}">{{ x.id }}</a></td>
+                <td><a href="../update/{{ x.id }}">{{ x.id }}</a></td>
                 <td>{{ x.EventName }}</td>
                 <td>{{ x.EventDesc }}</td>
                 <td><a href="delete/{{ x.id }}">
@@ -106,7 +106,7 @@
     </table>
       
     <p>
-        <a href="addnewcourse/">
+        <a href="../addnewcourse/">
             <button type="button" class="btn btn-primary">Add Course</button>
         </a>
     </p>
