@@ -21,6 +21,7 @@ def index(request):
   for x in myevents:
     output = output + "<br>" + x["EventName"]
   return HttpResponse(output) """
+  
  
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
